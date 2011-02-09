@@ -52,4 +52,9 @@ public interface ClientDatanodeProtocol extends VersionedProtocol {
    * @throws IOException if the block does not exist
    */
   Block getBlockInfo(Block block) throws IOException;
+
+  /** Retrives the filename of the blockfile and the metafile from the datanode
+   * @param block the specified block on this datanode   * @return the BlockPathInfo of a block
+   */
+  BlockPathInfo getBlockPathInfo(Block block) throws IOException;
 }

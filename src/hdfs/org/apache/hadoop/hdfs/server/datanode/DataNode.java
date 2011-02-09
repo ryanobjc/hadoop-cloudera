@@ -47,6 +47,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.hdfs.HDFSPolicyProvider;
 import org.apache.hadoop.hdfs.protocol.Block;
+import org.apache.hadoop.hdfs.protocol.BlockPathInfo;
 import org.apache.hadoop.hdfs.protocol.BlockListAsLongs;
 import org.apache.hadoop.hdfs.protocol.ClientDatanodeProtocol;
 import org.apache.hadoop.hdfs.protocol.DataTransferProtocol;
@@ -1531,6 +1532,21 @@ public class DataNode extends Configured
     throw new IOException("Unknown protocol to " + getClass().getSimpleName()
         + ": " + protocol);
   }
+
+  /** {@inheritDoc} */
+   public BlockPathInfo getBlockPathInfo(Block block) throws IOException {
+     File datafile = data.getBlockFile(block);
+     File metafile = FSDataset.getMetaFile(datafile, block);
+     BlockPathInfo info = new BlockPathInfo(block, datafile.getAbsolutePath(), 
+                                            metafile.getAbsolutePath());
+     if (LOG.isDebugEnabled()) {
+       LOG.debug("getBlockPathInfo successful block=" + block +
+                 " blockfile " + datafile.getAbsolutePath() +
+                 " metafile " + metafile.getAbsolutePath());
+     }
+     return info;
+   }
+
 
   /** A convenient class used in lease recovery */
   private static class BlockRecord { 

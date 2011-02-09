@@ -1,0 +1,126 @@
+NO DOC BLOCK: org.apache.hadoop.metrics.spi.AbstractMetricsContext.MetricMap Class
+NO DOC BLOCK: org.apache.hadoop.metrics.spi.AbstractMetricsContext.TagMap Class
+NO DOC BLOCK: org.apache.hadoop.util.AsyncDiskService Class
+MISSING @SINCE TAG: org.apache.hadoop.mapred.lib.BinaryPartitioner Class
+MISSING @SINCE TAG: org.apache.hadoop.mapreduce.lib.partition.BinaryPartitioner Class
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.bzip2.CBZip2InputStream.STATE Class
+NO DOC BLOCK: org.apache.hadoop.util.ChecksumUtil Class
+MISSING @SINCE TAG: org.apache.hadoop.mapreduce.lib.input.CombineFileInputFormat Class
+MISSING @SINCE TAG: org.apache.hadoop.mapreduce.lib.input.CombineFileRecordReader Class
+MISSING @SINCE TAG: org.apache.hadoop.mapreduce.lib.input.CombineFileSplit Class
+MISSING @SINCE TAG: org.apache.hadoop.fs.FsStatus Class
+MISSING @SINCE TAG: org.apache.hadoop.metrics.ganglia.GangliaContext31 Class
+MISSING @SINCE TAG: org.apache.hadoop.mapred.JobInProgress Class
+NO DOC BLOCK: org.apache.hadoop.mapred.JobInProgress.Counter Class
+MISSING @SINCE TAG: org.apache.hadoop.mapred.JobTrackerPlugin Class
+MISSING @SINCE TAG: org.apache.hadoop.metrics.MetricsServlet Class
+MISSING @SINCE TAG: org.apache.hadoop.util.MRAsyncDiskService Class
+MISSING @SINCE TAG: org.apache.hadoop.mapreduce.lib.output.MultipleOutputs Class
+MISSING @SINCE TAG: org.apache.hadoop.metrics.spi.NoEmitMetricsContext Class
+MISSING @SINCE TAG: org.apache.hadoop.util.PluginDispatcher Class
+MISSING @SINCE TAG: org.apache.hadoop.util.PureJavaCrc32 Class
+MISSING @SINCE TAG: org.apache.hadoop.util.ServicePlugin Interface
+MISSING @SINCE TAG: org.apache.hadoop.util.SingleArgumentRunnable Interface
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.SplitCompressionInputStream Class
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.SplittableCompressionCodec Interface
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.SplittableCompressionCodec.READ_MODE Class
+MISSING @SINCE TAG: org.apache.hadoop.mapred.TaskInProgress Class
+MISSING @SINCE TAG: org.apache.hadoop.mapred.TaskStatus Class
+NO DOC BLOCK: org.apache.hadoop.mapred.TaskStatus.Phase Class
+NO DOC BLOCK: org.apache.hadoop.mapred.TaskStatus.State Class
+MISSING @SINCE TAG: org.apache.hadoop.mapred.TaskTrackerStatus Class
+MISSING @SINCE TAG: org.apache.hadoop.mapred.TaskTrackerStatus.ResourceStatus Class
+MISSING @SINCE TAG: org.apache.hadoop.mapred.Utils Class
+NO DOC BLOCK: org.apache.hadoop.mapred.Utils.OutputFileUtils Class
+MISSING @SINCE TAG: org.apache.hadoop.mapred.Utils.OutputFileUtils.OutputFilesFilter Class
+MISSING @SINCE TAG: org.apache.hadoop.mapred.Utils.OutputFileUtils.OutputLogFilter Class
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.bzip2.CBZip2InputStream Constructor (java.io.InputStream, org.apache.hadoop.io.compress.SplittableCompressionCodec.READ_MODE)
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.BZip2Codec Method createInputStream(java.io.InputStream, org.apache.hadoop.io.compress.Decompressor, long, long, org.apache.hadoop.io.compress.SplittableCompressionCodec.READ_MODE)
+NO DOC BLOCK: org.apache.hadoop.mapred.lib.CombineFileInputFormat Method createRecordReader(org.apache.hadoop.mapreduce.InputSplit, org.apache.hadoop.mapreduce.TaskAttemptContext)
+MISSING @SINCE TAG: org.apache.hadoop.io.file.tfile.TFile.Reader Method createScannerByByteRange(long, long)
+MISSING @SINCE TAG: org.apache.hadoop.io.file.tfile.TFile.Reader Method createScannerByKey(byte[], byte[])
+MISSING @SINCE TAG: org.apache.hadoop.io.file.tfile.TFile.Reader Method createScannerByKey(org.apache.hadoop.io.file.tfile.RawComparable, org.apache.hadoop.io.file.tfile.RawComparable)
+MISSING @SINCE TAG: org.apache.hadoop.io.file.tfile.TFile.Reader Method createScannerByRecordNum(long, long)
+MISSING @SINCE TAG: org.apache.hadoop.conf.Configuration Method dumpConfiguration(org.apache.hadoop.conf.Configuration, java.io.Writer)
+NO DOC BLOCK: org.apache.hadoop.metrics.ganglia.GangliaContext Method emitMetric(java.lang.String, java.lang.String, java.lang.String)
+MISSING @SINCE TAG: org.apache.hadoop.metrics.ContextFactory Method getAllContexts()
+MISSING @SINCE TAG: org.apache.hadoop.metrics.MetricsContext Method getAllRecords()
+MISSING @SINCE TAG: org.apache.hadoop.metrics.spi.AbstractMetricsContext Method getAllRecords()
+MISSING @SINCE TAG: org.apache.hadoop.mapred.TaskTracker Method getAsyncDiskService()
+NO DOC BLOCK: org.apache.hadoop.mapred.JobTracker Method getCompletedJobs()
+NO DOC BLOCK: org.apache.hadoop.metrics.ganglia.GangliaContext Method getDmax(java.lang.String)
+NO DOC BLOCK: org.apache.hadoop.mapred.JobTracker Method getFailedJobs()
+MISSING @SINCE TAG: org.apache.hadoop.conf.Configuration Method getInstances(java.lang.String, java.lang.Class)
+MISSING @SINCE TAG: org.apache.hadoop.mapred.JobConf Method getJarUnpackPattern()
+MISSING @SINCE TAG: org.apache.hadoop.filecache.DistributedCache Method getLocalCache(java.net.URI, org.apache.hadoop.conf.Configuration, org.apache.hadoop.fs.Path, boolean, long, org.apache.hadoop.fs.Path, org.apache.hadoop.util.MRAsyncDiskService)
+MISSING @SINCE TAG: org.apache.hadoop.filecache.DistributedCache Method getLocalCache(java.net.URI, org.apache.hadoop.conf.Configuration, org.apache.hadoop.fs.Path, org.apache.hadoop.fs.FileStatus, boolean, long, org.apache.hadoop.fs.Path, boolean, org.apache.hadoop.util.MRAsyncDiskService)
+MISSING @SINCE TAG: org.apache.hadoop.filecache.DistributedCache Method getLocalCache(java.net.URI, org.apache.hadoop.conf.Configuration, org.apache.hadoop.fs.Path, org.apache.hadoop.fs.FileStatus, boolean, long, org.apache.hadoop.fs.Path, org.apache.hadoop.util.MRAsyncDiskService)
+MISSING @SINCE TAG: org.apache.hadoop.mapred.JobConf Method getMaxMapsPerNode()
+MISSING @SINCE TAG: org.apache.hadoop.mapred.JobConf Method getMaxReducesPerNode()
+MISSING @SINCE TAG: org.apache.hadoop.metrics.spi.OutputRecord Method getMetricsCopy()
+MISSING @SINCE TAG: org.apache.hadoop.mapreduce.lib.output.FileOutputFormat Method getOutputName(org.apache.hadoop.mapreduce.JobContext)
+MISSING @SINCE TAG: org.apache.hadoop.conf.Configuration Method getPattern(java.lang.String, java.util.regex.Pattern)
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.CompressionInputStream Method getPos()
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.bzip2.CBZip2InputStream Method getProcessedByteCount()
+MISSING @SINCE TAG: org.apache.hadoop.io.file.tfile.TFile.Reader.Scanner Method getRecordNum()
+MISSING @SINCE TAG: org.apache.hadoop.io.file.tfile.TFile.Reader Method getRecordNumNear(long)
+MISSING @SINCE TAG: org.apache.hadoop.mapred.JobConf Method getRunningMapLimit()
+MISSING @SINCE TAG: org.apache.hadoop.mapred.JobConf Method getRunningReduceLimit()
+NO DOC BLOCK: org.apache.hadoop.metrics.ganglia.GangliaContext Method getSlope(java.lang.String)
+MISSING @SINCE TAG: org.apache.hadoop.util.VersionInfo Method getSrcChecksum()
+MISSING @SINCE TAG: org.apache.hadoop.fs.FileSystem Method getStatus()
+MISSING @SINCE TAG: org.apache.hadoop.fs.FileSystem Method getStatus(org.apache.hadoop.fs.Path)
+MISSING @SINCE TAG: org.apache.hadoop.fs.FilterFileSystem Method getStatus(org.apache.hadoop.fs.Path)
+MISSING @SINCE TAG: org.apache.hadoop.fs.RawLocalFileSystem Method getStatus(org.apache.hadoop.fs.Path)
+MISSING @SINCE TAG: org.apache.hadoop.metrics.spi.OutputRecord Method getTagsCopy()
+NO DOC BLOCK: org.apache.hadoop.metrics.ganglia.GangliaContext Method getTmax(java.lang.String)
+MISSING @SINCE TAG: org.apache.hadoop.conf.Configuration Method getTrimmedStringCollection(java.lang.String)
+MISSING @SINCE TAG: org.apache.hadoop.util.StringUtils Method getTrimmedStringCollection(java.lang.String)
+MISSING @SINCE TAG: org.apache.hadoop.conf.Configuration Method getTrimmedStrings(java.lang.String)
+MISSING @SINCE TAG: org.apache.hadoop.conf.Configuration Method getTrimmedStrings(java.lang.String, java.lang.String[])
+MISSING @SINCE TAG: org.apache.hadoop.util.StringUtils Method getTrimmedStrings(java.lang.String)
+NO DOC BLOCK: org.apache.hadoop.metrics.ganglia.GangliaContext Method getUnits(java.lang.String)
+MISSING @SINCE TAG: org.apache.hadoop.io.WritableComparator Method hashBytes(byte[], int, int)
+MISSING @SINCE TAG: org.apache.hadoop.util.StringUtils Method join(java.lang.CharSequence, java.lang.Iterable)
+MISSING @SINCE TAG: org.apache.hadoop.util.StringUtils Method joinObjects(java.lang.CharSequence, java.lang.Iterable)
+MISSING @SINCE TAG: org.apache.hadoop.fs.FileSystem Method newInstance(java.net.URI, org.apache.hadoop.conf.Configuration)
+MISSING @SINCE TAG: org.apache.hadoop.fs.FileSystem Method newInstance(org.apache.hadoop.conf.Configuration)
+MISSING @SINCE TAG: org.apache.hadoop.fs.FileSystem Method newInstanceLocal(org.apache.hadoop.conf.Configuration)
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.bzip2.CBZip2InputStream Method numberOfBytesTillNextMarker(java.io.InputStream)
+MISSING @SINCE TAG: org.apache.hadoop.metrics.spi.AbstractMetricsContext Method parseAndSetPeriod(java.lang.String)
+MISSING @SINCE TAG: org.apache.hadoop.io.IOUtils Method readFileChannelFully(java.nio.channels.FileChannel, byte[], int, int)
+NO DOC BLOCK: org.apache.hadoop.io.compress.bzip2.CBZip2InputStream Method reportCRCError()
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.CompressionInputStream Method seek(long)
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.CompressionInputStream Method seekToNewSource(long)
+MISSING @SINCE TAG: org.apache.hadoop.mapred.JobConf Method setMaxMapsPerNode(int)
+MISSING @SINCE TAG: org.apache.hadoop.mapred.JobConf Method setMaxReducesPerNode(int)
+MISSING @SINCE TAG: org.apache.hadoop.mapred.lib.db.DBOutputFormat Method setOutput(org.apache.hadoop.mapred.JobConf, java.lang.String, int)
+MISSING @SINCE TAG: org.apache.hadoop.mapreduce.lib.output.FileOutputFormat Method setOutputName(org.apache.hadoop.mapreduce.JobContext, java.lang.String)
+MISSING @SINCE TAG: org.apache.hadoop.conf.Configuration Method setPattern(java.lang.String, java.util.regex.Pattern)
+MISSING @SINCE TAG: org.apache.hadoop.mapred.JobConf Method setRunningMapLimit(int)
+MISSING @SINCE TAG: org.apache.hadoop.mapred.JobConf Method setRunningReduceLimit(int)
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.bzip2.CBZip2InputStream Method skipToNextMarker(long, int)
+MISSING @SINCE TAG: org.apache.hadoop.HadoopVersionAnnotation Method srcChecksum()
+MISSING @SINCE TAG: org.apache.hadoop.io.SequenceFile.Writer Method syncFs()
+MISSING @SINCE TAG: org.apache.hadoop.util.RunJar Method unJar(java.io.File, java.io.File, java.util.regex.Pattern)
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.bzip2.CBZip2InputStream Method updateProcessedByteCount(int)
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.bzip2.CBZip2InputStream Method updateReportedByteCount(int)
+MISSING @SINCE TAG: org.apache.hadoop.metrics.ganglia.GangliaContext Method xdr_int(int)
+MISSING @SINCE TAG: org.apache.hadoop.metrics.ganglia.GangliaContext Method xdr_string(java.lang.String)
+NO DOC BLOCK: org.apache.hadoop.mapreduce.lib.output.FileOutputFormat Field BASE_OUTPUT_NAME
+NO DOC BLOCK: org.apache.hadoop.io.compress.bzip2.CBZip2InputStream Field BLOCK_DELIMITER
+NO DOC BLOCK: org.apache.hadoop.metrics.ganglia.GangliaContext Field buffer
+NO DOC BLOCK: org.apache.hadoop.metrics.ganglia.GangliaContext Field datagramSocket
+NO DOC BLOCK: org.apache.hadoop.util.StringUtils Field emptyStringArray
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.bzip2.BZip2Constants Field END_OF_BLOCK
+MISSING @SINCE TAG: org.apache.hadoop.io.compress.bzip2.BZip2Constants Field END_OF_STREAM
+NO DOC BLOCK: org.apache.hadoop.io.compress.bzip2.CBZip2InputStream Field EOS_DELIMITER
+NO DOC BLOCK: org.apache.hadoop.fs.FileSystem Field FS_DEFAULT_NAME_KEY
+NO DOC BLOCK: org.apache.hadoop.mapreduce.JobContext Field JAR_UNPACK_PATTERN
+MISSING @SINCE TAG: org.apache.hadoop.util.RunJar Field MATCH_ANY
+NO DOC BLOCK: org.apache.hadoop.io.compress.CompressionInputStream Field maxAvailableData
+NO DOC BLOCK: org.apache.hadoop.metrics.ganglia.GangliaContext Field metricsServers
+NO DOC BLOCK: org.apache.hadoop.metrics.ganglia.GangliaContext Field offset
+MISSING @SINCE TAG: org.apache.hadoop.mapred.lib.db.DBConfiguration Field OUTPUT_FIELD_COUNT_PROPERTY
+NO DOC BLOCK: org.apache.hadoop.mapreduce.lib.output.FileOutputFormat Field PART
+MISSING @SINCE TAG: org.apache.hadoop.mapred.JobConf Field UNPACK_JAR_PATTERN_DEFAULT

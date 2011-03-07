@@ -1,5 +1,51 @@
 Hadoop Change Log
 
+ SU
+ (Latest to oldest)
+
+ commit df0d79cc2b09438c079fdf10b913936492117917
+ Author: Hairong Kuang <hairong@apache.org>
+ Date:   Mon Jan 10 19:01:36 2011 +0000
+ 
+     HDFS-1554. New semantics for recoverLease. Contributed by Hairong Kuang.
+     
+     
+     git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20-append@1057313 13f79535-47bb-0310-9956-ffa450edef68
+ 
+ commit e499be8c74a871ef06aa8a74c621e68d50167d3d
+ Author: Hairong Kuang <hairong@apache.org>
+ Date:   Fri Jan 7 20:25:23 2011 +0000
+ 
+     HDFS-1555. Disallow pipelien recovery if a file is already being lease recovered. Contributed by Hairong Kuang.
+     
+     
+     git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20-append@1056491 13f79535-47bb-0310-9956-ffa450edef68
+ 
+ commit 966ef38cb13d75ada40de2b9951496ddcb6918a4
+ Author: Hairong Kuang <hairong@apache.org>
+ Date:   Fri Jan 7 20:19:40 2011 +0000
+ 
+     Revert the change made to HDFS-1555: merge -c -1056483 https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20-append
+     
+     git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20-append@1056489 13f79535-47bb-0310-9956-ffa450edef68
+ 
+ commit f9436bf6bd2f5bc4f8cebe2781c5ce628db31239
+ Author: Hairong Kuang <hairong@apache.org>
+ Date:   Fri Jan 7 20:11:38 2011 +0000
+ 
+     HDFS-1555. Disallow pipeline recovery if a file is already being lease recovered. Contributed by Hairong Kuang.
+     
+     
+     git-svn-id: https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.20-append@1056483 13f79535-47bb-0310-9956-ffa450edef68
+ 
+ commit 9a3094f3a085817d377ce69fb8eb002f966f992b
+ Author: Dhruba Borthakur <dhruba@apache.org>
+ Date:   Fri Dec 10 05:38:06 2010 +0000
+ 
+     HDFS-1520. Lightweight NameNode operation recoverLease to trigger
+     lease recovery. (Hairong Kuang via dhruba)
+
+
 Release 0.20.3 - Unreleased
 
 Release 0.20.2 - 2010-2-19
@@ -64,6 +110,7 @@ Release 0.20.2 - 2010-2-19
     (cdouglas)
 
     HADOOP-6576. Fix streaming test failures on 0.20. (Todd Lipcon via cdouglas)
+
 
   IMPROVEMENTS
 

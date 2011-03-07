@@ -225,6 +225,9 @@ public class TestDFSClientRetries extends TestCase {
 
     public void setTimes(String src, long mtime, long atime) throws IOException {}
 
+    @Override
+    public boolean recoverLease(String src, String clientName) throws IOException {return true;}
+
   }
   
   public void testNotYetReplicatedErrors() throws IOException

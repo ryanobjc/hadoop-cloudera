@@ -28,7 +28,9 @@
  
   <property name="Name" value="Hadoop"/>
   <property name="name" value="hadoop"/>
-  <property name="version" value="0.20.2+322"/>
+  <!--321 is cdhs's name. 322 for hdfs-347 and then 323 for the
+   hdfs-1520,1555,1554-->
+  <property name="version" value="0.20.2+323"/>
   <property name="final.name" value="${name}-${version}"/>
   <property name="year" value="2009"/>
   
